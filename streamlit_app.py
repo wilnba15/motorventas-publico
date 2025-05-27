@@ -35,7 +35,8 @@ if submitted and user_input:
             "4. Descargar contenidos útiles\n"
             "5. Hablar con un asesor humano\n"
             "Digita: 1,2,3,4 o 5 segun lo que necesitas\n"
-            "Digita: 1,2,3,4 o 5 segun lo que necesitas"
+            "Digita: 1,2,3,4 o 5 segun lo que necesitas\n"
+            "Hola"
         )
 
     if msg in ["menu", "inicio"]:
