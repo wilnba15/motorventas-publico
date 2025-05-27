@@ -14,7 +14,7 @@ if "user_data" not in st.session_state:
 st.title("🤖 Asistente Virtual - Motor en Ventas")
 
 for msg in st.session_state.messages:
-    st.markdown(f"**{msg['role'].capitalize()}:** {msg['content']}")
+    st.markdown(f"**{msg['role'].capitalize()}:**\n\n{msg['content']}")
 
 with st.form("chat_form", clear_on_submit=True):
     user_input = st.text_input("Tu mensaje:")
