@@ -14,6 +14,12 @@ st.title("🤖 Asistente Virtual - Motor en Ventas")
 
 for msg in st.session_state.messages:
     st.markdown(f"**{msg['role'].capitalize()}:**<br>{msg['content']}", unsafe_allow_html=True)
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> f933db6907a8fb3fd7bb6ff6cd92839511003ba3
 
 with st.form("chat_form", clear_on_submit=True):
     user_input = st.text_input("Tu mensaje:")
@@ -25,6 +31,7 @@ if submitted and user_input:
     estado = st.session_state.state
     user_data = st.session_state.user_data
 
+<<<<<<< HEAD
     def show_menu():
         return (
             "¿En qué te gustaría que te apoye hoy?<br>"
@@ -35,6 +42,19 @@ if submitted and user_input:
             "5. Hablar con un asesor humano<br>"
             "<br><strong>Digita:</strong> 1, 2, 3, 4 o 5 según lo que necesitas"
         )
+=======
+def show_menu():
+    return (
+        "¿En qué te gustaría que te apoye hoy?<br>"
+        "1. Conocer nuestros servicios<br>"
+        "2. Agendar asesoría gratuita<br>"
+        "3. Ver promociones y precios<br>"
+        "4. Descargar contenidos útiles<br>"
+        "5. Hablar con un asesor humano<br>"
+        "<br><strong>Digita:</strong> 1, 2, 3, 4 o 5 según lo que necesitas"
+    )
+
+>>>>>>> f933db6907a8fb3fd7bb6ff6cd92839511003ba3
 
     if msg in ["menu", "inicio"]:
         st.session_state.state = "inicio"
