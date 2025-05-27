@@ -71,7 +71,7 @@ if submitted and user_input:
             st.session_state.state = "menu_contenidos"
             bot_reply = (
                 "Aquí tienes algunos contenidos que pueden ayudarte:\n"
-                "📘 eBook gratuito: https://drive.google.com/file/d/1VCqn50grfCdWAGcXYJmBhcIilgbrSdE4/view\n""
+                "📘 eBook gratuito: https://drive.google.com/file/d/1VCqn50grfCdWAGcXYJmBhcIilgbrSdE4/view\n"
                 "🌐 Blog: https://www.motorenventas.com/"
             )
         elif msg == "5":
