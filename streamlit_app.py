@@ -34,6 +34,7 @@ if submitted and user_input:
             "3. Ver promociones y precios\n"
             "4. Descargar contenidos útiles\n"
             "5. Hablar con un asesor humano\n"
+            "5. Hablar con un asesor humano\n"
             "Digita: 1,2,3,4 o 5 segun lo que necesitas"
         )
 
