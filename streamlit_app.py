@@ -36,7 +36,7 @@ if submitted and user_input:
             "<br><strong>Digita:</strong> 1, 2, 3, 4 o 5 según lo que necesitas"
         )
 
-    if msg in ["menu", "inicio"]:
+    if msg in ["menú","menu", "inicio"]:
         st.session_state.state = "inicio"
         bot_reply = show_menu()
 
